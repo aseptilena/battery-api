@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="style.css">    
+        <title>Battery API Example</title>
+    </head>
+
+    <body>
+        <!-- <div id="output" class="output">
+            <div id="content">
+                <div><span id="warning"></span></div>
+                <div>Charging: <span id="chargingState">Charging</span></div>
+                <div>Time to charge: <span id="chargingTime">Infinity Seconds</span></div>
+                <div>Time to discharge: <span id="dischargeTime">Infinity Seconds</span></div>
+                <div>Battery Level: <span id="level">60%</span></div>
+            </div>
+            <div id="status"></div>
+            <pre id="log"></pre>
+        </div>  -->
+
+        <article class="battery-card">
+            <h1 class="battery-title">Battery Status</h1>
+        
+            <div class="battery-box">
+                <strong class="battery-percentage"></strong>
+                <i class="battery"></i>
+            </div>
+        
+            <dl class="battery-info">
+                <dt>Power Source</dt>
+                <dd class="battery-status"></dd>
+        
+                <dt>Level percentage</dt>
+                <dd class="battery-level"></dd>
+        
+                <dt>Fully charged in</dt>
+                <dd class="battery-fully"></dd>
+        
+                <dt>Remaining time</dt>
+                <dd class="battery-remaining"></dd>
+            </dl>
+        </article>
+
+        <script src="script.js"></script>   
+    </body>
+</html>
